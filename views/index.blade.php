@@ -10,6 +10,8 @@
         <button type="submit">View file</button>
     </form>
     <script>
+    // stolen from: 
+    // https://github.com/commenthol/url-safe-base64/blob/master/src/index.js
         document.getElementById("form").addEventListener("submit", goToFile);
         const ENC = {
             '+': '-',
