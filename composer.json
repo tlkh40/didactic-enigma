@@ -1,0 +1,10 @@
+{
+    "require": {
+        "hisamu/php-xbase": "^2.1",
+        "pecee/simple-router": "4.3.7.2",
+        "eftec/bladeone": "^4.5"
+    },
+    "scripts": {
+      "start": "cd public && php -S 0.0.0.0:4242"
+    }
+  }
